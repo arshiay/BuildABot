@@ -44,7 +44,7 @@ if(isset($update->callback_query)){
                 ],[
                     ['text'=>"📿یکی زیاد شد📿 ($salavat)",'callback_data'=>"$salavatback"]
                 ],[
-                    ['text'=>"📿سازنده📿",'url'=>'https://telegram.me/buildabot']
+                    ['text'=>"📿سازنده📿",'url'=>'https://telegram.me/BuildYour_Bot']
                 ]
                 ]
             ])
@@ -61,7 +61,7 @@ if(isset($update->callback_query)){
                 [
                     ['text'=>"📿ذکر بفرست📿",'callback_data'=>"1"]
                 ],[
-                    ['text'=>"📿سازنده📿",'url'=>'https://telegram.me/Buildabot']
+                    ['text'=>"📿سازنده📿",'url'=>'https://telegram.me/BuildYour_Bot']
                 ]
             ]
         ])
