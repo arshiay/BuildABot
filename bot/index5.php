@@ -47,11 +47,11 @@ if($text == "/start"){
         Inline Format
         <code>
         Character , Bold, Italic, code, Qr Code:
-        @Buildaboy [TEXT]
+        @BuildYour_bot [TEXT]
         
         Create Random Password :
-        @buildabot [NUMBER]
-        </code>\n@buildabot\n@tikapp",
+        @BuildYour_Bot [NUMBER]
+        </code>\n@BuildYour_Bot\n@LeGraGame",
         'parse_mode'=>"HTML",
         'reply_markup'=>json_encode(['inline_keyboard'=>[
             [['text'=>'Switch Inline','switch_inline_query'=>'']]
@@ -104,7 +104,7 @@ if($inlineqt == ""){
             'input_message_content'=>['parse_mode'=>'HTML','message_text'=>"Your Pass Word :
             ".rp($inlineqt)],
             'reply_markup'=>['inline_keyboard'=>[
-                [['text'=>'Worldtm','url'=>'https://telegram.me/buildabot']],
+                [['text'=>'Worldtm','url'=>'https://telegram.me/buildyour_bot']],
                 [['text'=>'Switch Inline','switch_inline_query'=>'12']]
              ]]
         ]])
@@ -121,7 +121,7 @@ onyx('answerInlineQuery',[
             'input_message_content'=>['parse_mode'=>'HTML','message_text'=>"Text Character 📝:
             $strlen"],
             'reply_markup'=>['inline_keyboard'=>[8
-                [['text'=>'Worldtm','url'=>'https://telegram.me/Buildabot']],
+                [['text'=>'Worldtm','url'=>'https://telegram.me/Buildyour_bot']],
                 [['text'=>'Switch Inline','switch_inline_query'=>'Message']]
              ]]
         ],[
