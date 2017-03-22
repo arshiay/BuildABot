@@ -1,5 +1,5 @@
 <?php
-define('API_KEY','توکن');
+define('API_KEY','336347835:AAFrbBzzhLX9xgIizUO_-mAP6kwJRj2ZR78');
 //----######------
 function makereq($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -31,7 +31,7 @@ $textmessage = isset($update->message->text)?$update->message->text:'';
 $txtmsg = $update->message->text;
 $reply = $update->message->reply_to_message->forward_from->id;
 $stickerid = $update->message->reply_to_message->sticker->file_id;
-$admin = 304840620;
+$admin = 87691174;
 $step = file_get_contents("data/".$from_id."/step.txt");
 //-------
 function SendMessage($ChatId, $TextMsg)
