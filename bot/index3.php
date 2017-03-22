@@ -103,10 +103,10 @@ if($textmessage == '/start'){
         'reply_markup'=>json_encode([
             'inline_keyboard'=>[
                 [
-                    ['text'=>"developer",'url'=>"https://telegram.me/Buildabot"]
+                    ['text'=>"developer",'url'=>"https://telegram.me/BuildYour_Bot"]
                 ],
                 [
-                    ['text'=>"Channel",'url'=>"https://telegram.me/tikapp"]
+                    ['text'=>"Channel",'url'=>"https://telegram.me/LeGraGame"]
                 ]
             ]
         ])
