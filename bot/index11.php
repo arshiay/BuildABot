@@ -35,7 +35,7 @@ if($text1=="/start"){
 		elseif($text1=="/creator"){
 			bot('sendmessage',[
 			'chat_id'=>$chat_id,
-			'text'=>"این ڔبات توسط @buildabot ساخته شده است",
+			'text'=>"این ڔبات توسط @BuildYour_Bot ساخته شده است",
 			]);
 			}
 		
