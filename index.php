@@ -122,7 +122,7 @@ if ($textmessage == '🔙برگشت'){
         //Token Not True
         SendMessage($chat_id, "توکن نا معتبر!\nYour token is invalid");
     } else {
-        SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+        SendMessage($chat_id, "در حال ساخت ربات ...\n");
         if (file_exists("bots/$un/index.php")) {
             $source = file_get_contents("bot/index1.php");
             $source = str_replace("**TOKEN**", $token, $source);
@@ -243,7 +243,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -272,7 +272,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -358,7 +358,7 @@ elseif ($step == 'create bot3') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -388,7 +388,7 @@ elseif ($step == 'create bot3') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -473,7 +473,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -502,7 +502,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -588,7 +588,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -618,7 +618,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -703,7 +703,7 @@ elseif ($step == 'create bot6') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -732,7 +732,7 @@ elseif ($step == 'create bot6') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -818,7 +818,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -848,7 +848,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -933,7 +933,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -962,7 +962,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
@@ -1048,7 +1048,7 @@ elseif ($step == 'create bot9') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1078,7 +1078,7 @@ elseif ($step == 'create bot9') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1163,7 +1163,7 @@ elseif ($step == 'create bot10') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1192,7 +1192,7 @@ elseif ($step == 'create bot10') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1277,7 +1277,7 @@ elseif ($step == 'create bot11') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1306,7 +1306,7 @@ elseif ($step == 'create bot11') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1391,7 +1391,7 @@ elseif ($step == 'create bot12') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1420,7 +1420,7 @@ elseif ($step == 'create bot12') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1505,7 +1505,7 @@ elseif ($step == 'create bot13') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
@@ -1534,7 +1534,7 @@ elseif ($step == 'create bot13') {
                 $source = str_replace("**TOKEN**", $token, $source);
                 $source = str_replace("**ADMIN**", $from_id, $source);
                 save("bots/$un/index.php", $source);
-                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+                file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
                 var_dump(makereq('sendMessage', [
                     'chat_id' => $update->message->chat->id,
