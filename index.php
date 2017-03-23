@@ -1722,7 +1722,7 @@ elseif($textmessage == 'کانال ما🔉'){
         'reply_markup'=>json_encode([
             'inline_keyboard'=>[
                 [
-                    ['text'=>"📢عضویت در کانال",'url'=>"https://telegram.me/tikapp"]
+                    ['text'=>"📢عضویت در کانال",'url'=>"https://telegram.me/legragame"]
                 ]
             ]
         ])
@@ -1757,10 +1757,10 @@ elseif($textmessage == '/start' )
 
 بعد بهتون یه توکن میده که من همونو لازم داره😅
 مانند:
-123456789:Hhajajanbabavqvwvwvwv
+123456789:Hhakaskdvmsovmsovb
 بعد من به شما پیغام میدم که ربات شما ساخت شده است و با دستور /start از رباتتون لذت ببرید 
 
-[😋عضویت در کانال من](http://telegram.me/tikapp) .",
+[😋عضویت در کانال من](http://telegram.me/legragame) .",
         'parse_mode'=>'MarkDown',
         'reply_markup'=>json_encode([
             'keyboard'=>[
