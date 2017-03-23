@@ -128,7 +128,7 @@ if ($textmessage == '🔙برگشت'){
             $source = str_replace("**TOKEN**", $token, $source);
             $source = str_replace("**ADMIN**", $from_id, $source);
             save("bots/$un/index.php", $source);
-            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://pmrcr.000webhostapp.com/bots/$un/index.php");
+            file_get_contents("http://api.telegram.org/bot" . $token . "/setwebhook?url=https://gravitybab.000webhostapp.com/buildabot/bots/$un/index.php");
 
             var_dump(makereq('sendMessage', [
                 'chat_id' => $update->message->chat->id,
