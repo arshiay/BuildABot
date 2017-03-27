@@ -237,7 +237,7 @@ if ($textmessage == '🔙برگشت'){
         //Token Not True
         SendMessage($chat_id, " توکن نا متعبر ");
     } else {
-        SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+        SendMessage($chat_id, "در حال ساخت ربات ...\n ");
         if (file_exists("bots/$un/index.php")) {
             $source = file_get_contents("bot/index3.php");
             $source = str_replace("**TOKEN**", $token, $source);
@@ -352,7 +352,7 @@ elseif ($step == 'create bot3') {
             //Token Not True
             SendMessage($chat_id, "توکن نا معتبر!\nYour token is invalid");
         } else {
-            SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+            SendMessage($chat_id, "در حال ساخت ربات ...\n ");
             if (file_exists("bots/$un/index.php")) {
                 $source = file_get_contents("bot/index9.php");
                 $source = str_replace("**TOKEN**", $token, $source);
@@ -467,7 +467,7 @@ if ($textmessage == '🔙برگشت'){
         //Token Not True
         SendMessage($chat_id, " توکن نا متعبر ");
     } else {
-        SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+        SendMessage($chat_id, "در حال ساخت ربات ...\n ");
         if (file_exists("bots/$un/index.php")) {
             $source = file_get_contents("bot/index5.php");
             $source = str_replace("**TOKEN**", $token, $source);
@@ -582,7 +582,7 @@ if ($textmessage == '🔙برگشت'){
         //Token Not True
         SendMessage($chat_id, "توکن نا معتبر!\nYour token is invalid");
     } else {
-        SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+        SendMessage($chat_id, "در حال ساخت ربات ...\n ");
         if (file_exists("bots/$un/index.php")) {
             $source = file_get_contents("bot/index6.php");
             $source = str_replace("**TOKEN**", $token, $source);
@@ -697,7 +697,7 @@ elseif ($step == 'create bot6') {
             //Token Not True
             SendMessage($chat_id, " توکن نا متعبر ");
         } else {
-            SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+            SendMessage($chat_id, "در حال ساخت ربات ...\n ");
             if (file_exists("bots/$un/index.php")) {
                 $source = file_get_contents("bot/index2.php");
                 $source = str_replace("**TOKEN**", $token, $source);
@@ -812,7 +812,7 @@ if ($textmessage == '🔙برگشت'){
         //Token Not True
         SendMessage($chat_id, "توکن نا معتبر!\nYour token is invalid");
     } else {
-        SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+        SendMessage($chat_id, "در حال ساخت ربات ...\n ");
         if (file_exists("bots/$un/index.php")) {
             $source = file_get_contents("bot/index7.php");
             $source = str_replace("**TOKEN**", $token, $source);
@@ -927,7 +927,7 @@ if ($textmessage == '🔙برگشت'){
         //Token Not True
         SendMessage($chat_id, " توکن نا متعبر ");
     } else {
-        SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+        SendMessage($chat_id, "در حال ساخت ربات ...\n ");
         if (file_exists("bots/$un/index.php")) {
             $source = file_get_contents("bot/index8.php");
             $source = str_replace("**TOKEN**", $token, $source);
@@ -1042,7 +1042,7 @@ elseif ($step == 'create bot9') {
             //Token Not True
             SendMessage($chat_id, "توکن نا معتبر!\nYour token is invalid");
         } else {
-            SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+            SendMessage($chat_id, "در حال ساخت ربات ...\n ");
             if (file_exists("bots/$un/index.php")) {
                 $source = file_get_contents("bot/index4.php");
                 $source = str_replace("**TOKEN**", $token, $source);
@@ -1157,7 +1157,7 @@ elseif ($step == 'create bot10') {
             //Token Not True
             SendMessage($chat_id, " توکن نا متعبر ");
         } else {
-            SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+            SendMessage($chat_id, "در حال ساخت ربات ...\n ");
             if (file_exists("bots/$un/index.php")) {
                 $source = file_get_contents("bot/index10.php");
                 $source = str_replace("**TOKEN**", $token, $source);
@@ -1271,7 +1271,7 @@ elseif ($step == 'create bot11') {
             //Token Not True
             SendMessage($chat_id, " توکن نا متعبر ");
         } else {
-            SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+            SendMessage($chat_id, "در حال ساخت ربات ...\n ");
             if (file_exists("bots/$un/index.php")) {
                 $source = file_get_contents("bot/index11.php");
                 $source = str_replace("**TOKEN**", $token, $source);
@@ -1385,7 +1385,7 @@ elseif ($step == 'create bot12') {
             //Token Not True
             SendMessage($chat_id, " توکن نا متعبر ");
         } else {
-            SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+            SendMessage($chat_id, "در حال ساخت ربات ...\n");
             if (file_exists("bots/$un/index.php")) {
                 $source = file_get_contents("bot/index12.php");
                 $source = str_replace("**TOKEN**", $token, $source);
@@ -1499,7 +1499,7 @@ elseif ($step == 'create bot13') {
             //Token Not True
             SendMessage($chat_id, " توکن نا متعبر ");
         } else {
-            SendMessage($chat_id, "در حال ساخت ربات ...\n Your");
+            SendMessage($chat_id, "در حال ساخت ربات ...\n ");
             if (file_exists("bots/$un/index.php")) {
                 $source = file_get_contents("bot/index13.php");
                 $source = str_replace("**TOKEN**", $token, $source);
@@ -1580,7 +1580,7 @@ if(isset($update->callback_query)){
                 'reply_markup'=>json_encode([
                     'inline_keyboard'=>[
                         [
-                            ['text'=>"به کانال ما بپیوندید🤓",'url'=>"https://telegram.me/tikapp"]
+                            ['text'=>"به کانال ما بپیوندید🤓",'url'=>"https://telegram.me/legragame"]
                         ]
                     ]
                 ])
@@ -2065,5 +2065,118 @@ elseif ($textmessage == 'ساخت ربات سین ساز👁‍🗨' ) {
     ]));
 }
 ///-------------
-//------
+//------pannel modiriat
+elseif ($textmessage == '/manager' && $from_id == $admin) { 
+    var_dump(makereq('sendMessage',[ 
+        'chat_id'=>$update->message->chat->id, 
+        'text'=>"سلام ادمین عزیز 
+به پنل مدیریت خوش آمدید 
+یکی از دکمه هارو انتخاب کن.", 
+        'parse_mode'=>'MarkDown', 
+        'reply_markup'=>json_encode([ 
+            'keyboard'=>[ 
+                [ 
+                    ['text'=>"🙃آمار"],['text'=>"ارسال به همه📬"] 
+                ], 
+                [ 
+                    ['text'=>"📢 فروارد همگانی"],['text'=>"🔙منوی اصلی"] 
+                ] 
+ 
+            ], 
+            'resize_keyboard'=>true 
+        ]) 
+    ])); 
+} 
+ 
+elseif ($textmessage == '🙃آمار' && $from_id == $admin) { 
+    $number = count(scandir("bots"))-1; 
+    $usercount = -1; 
+    $fp = fopen( "data/users.txt", 'r'); 
+    while( !feof( $fp)) { 
+        fgets( $fp); 
+        $usercount ++; 
+    } 
+    fclose( $fp); 
+    SendMessage($chat_id,"👥اعضای ربات : ".$usercount."\n🤖تعداد رباتهای فعال : $number"); 
+} 
+elseif ($textmessage == 'ارسال به همه📬') 
+    if ($from_id == $admin) 
+    { 
+        save("data/$from_id/step.txt","sendtoall"); 
+        var_dump(makereq('sendMessage',[ 
+                    'chat_id'=>$update->message->chat->id, 
+                    'text'=>"پیام خود را ارسال کنید : ", 
+                    'parse_mode'=>'MarkDown', 
+                    'reply_markup'=>json_encode(['keyboard'=> 
+                        [[['text'=>"🔙منوی اصلی"]]], 
+                        'resize_keyboard'=>true 
+                    ]) 
+                ] 
+            ) 
+        ); 
+    } 
+    else 
+    { 
+        SendMessage($chat_id,"شما ادمین نیستید."); 
+    } 
+elseif ($step == 'sendtoall') 
+{ 
+    SendMessage($chat_id,"پیام در حال ارسال میباشد...⏰"); 
+    save("data/$from_id/step.txt","none"); 
+    $fp = fopen( "data/users.txt", 'r'); 
+    while( !feof( $fp)) { 
+        $ckar = fgets( $fp); 
+        SendMessage($ckar,$textmessage); 
+    } 
+    SendMessage($chat_id,"پیام شما با موفقیت به تمام کاربران ارسال شد👍"); 
+} 
+elseif ($textmessage == '📢 فروارد همگانی') 
+if ($from_id == $admin) 
+{ 
+save("data/$from_id/step.txt","fortoall"); 
+var_dump(makereq('sendMessage',[ 
+'chat_id'=>$update->message->chat->id, 
+'text'=>"🔹 لطفا پیام خود را فوروارد کنید :", 
+'parse_mode'=>'MarkDown', 
+                    'reply_markup'=>json_encode(['keyboard'=> 
+                        [[['text'=>"🔙منوی اصلی"]]], 
+                        'resize_keyboard'=>true 
+                    ]) 
+ 
+                               ] 
+        ) 
+    ); 
+} 
+else 
+{ 
+SendMessage($chat_id,"😐📛شما ادمین نیستید."); 
+} 
+elseif ($step == 'fortoall') 
+{ 
+SendMessage($chat_id,"📢 در حال فروارد پیام . . ."); 
+save("data/$from_id/step.txt","none"); 
+$forp = fopen( "data/users.txt", 'r'); 
+while( !feof( $forp)) { 
+$fakar = fgets( $forp); 
+Forward($fakar, $chat_id,$message_id); 
+  } 
+   makereq('sendMessage',[ 
+   'chat_id'=>$chat_id, 
+   'text'=>"✅ پیام شما به همه ی کاربران ربات فروارد شد.", 
+   ]); 
+}
+//creator//
+elseif($text == '/creator'){
+
+sendaction($chat_id, typing);
+
+        bot('sendmessage', [
+
+                'chat_id' => $chat_id,
+
+                'text' =>"این ربات توسط @SonOfTheGod ساخته شده است 😌",
+
+            ]);
+
+        }
 ?>
